@@ -2,9 +2,9 @@ public class Main {
     public static void main(String[] args) {
         MusicManager manager = new MusicManager();
 
-        manager.addTrack("Song 1", "Artist A");
-        manager.addTrack("Song 2", "Artist B");
-        manager.addTrack("Song 3", "Artist C");
+        manager.addTrack("About You", "The 1975");
+        manager.addTrack("the stars", "Chelsea Cutler");
+        manager.addTrack("Moments", "One Direction");
 
         manager.listAllTracks();
 
